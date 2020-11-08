@@ -25,7 +25,7 @@ function setup() {
   monkey.scale = 0.1;
 
   ground = createSprite(200, 320, 600, 5);
-  ground.visible = true;
+  ground.visible = false;
 
   obstaclesGroup = new Group();
   bananaGroup = new Group();
